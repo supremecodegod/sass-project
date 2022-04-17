@@ -6,14 +6,10 @@
     box-sizing: inherit;
 }
 html{
+    // this defines what 1rem is
     font-size: 62.5%;
 }
 body{ /*Elements put in the body are inhetrited by all the chikd element in header*/
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    /* font-size: 16px; */
-    line-height: 1.7;
-    color: $color-grey-dark;
-    padding: 3rem;
+    
     box-sizing: border-box;
 }
